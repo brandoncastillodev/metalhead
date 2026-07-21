@@ -98,7 +98,7 @@ img {
     font-size: 1.5rem;
   }
   img {
-    max-width: 500px;
+    max-width: 400px;
   }
 }
 @media (min-width: 1000px) {
@@ -110,6 +110,6 @@ img {
     height: 25rem;
   }
   img {
-    max-width: 500px;
+    max-width: 400px;
   }
 }
