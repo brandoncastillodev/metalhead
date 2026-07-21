@@ -34,17 +34,18 @@ body{
 }
 
 .contenido {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
-img,
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.7rem;
+}
+
 .video {
   width: 100%;
-  height: auto;
-  margin-bottom: 0.7rem;
-}
-
-.video {
   height: 15rem;
   border: none;
 }
@@ -85,6 +86,7 @@ img,
   }
   .contenido {
     width: 60%;
+    padding: 1.5rem 2rem;
   }
   .video {
     height: 30vh;
@@ -95,12 +97,19 @@ img,
   .firma{
     font-size: 1.5rem;
   }
+  img {
+    max-width: 500px;
+  }
 }
 @media (min-width: 1000px) {
   .contenido {
     width: 45%;
+    padding: 1.5rem 2rem;
   }
   .video {
     height: 25rem;
+  }
+  img {
+    max-width: 500px;
   }
 }
