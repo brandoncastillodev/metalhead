@@ -34,11 +34,12 @@ body{
 }
 
 .contenido {
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 35vw;
   height: auto;
   display: block;
   margin: 0 auto 0.7rem;
@@ -46,6 +47,7 @@ img {
 
 .video {
   width: 100%;
+  max-width: 35vw;
   height: 15rem;
   border: none;
 }
@@ -82,7 +84,7 @@ img {
   }
   .copete {
     font-size: 2rem;
-    max-width: 70vw;
+    max-width: 45vw;
   }
   .contenido {
     width: 60%;
@@ -97,19 +99,17 @@ img {
   .firma{
     font-size: 1.5rem;
   }
-  img {
-    max-width: 400px;
-  }
 }
 @media (min-width: 1000px) {
   .contenido {
-    width: 45%;
+    width: 35vw;
     padding: 1.5rem 2rem;
   }
-  .video {
-    height: 25rem;
-  }
   img {
-    max-width: 400px;
+    max-width: 40vw;
+  }
+  .video {
+    max-width: 40vw;
+    height: 25rem;
   }
 }
