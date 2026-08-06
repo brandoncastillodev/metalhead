@@ -39,7 +39,7 @@ body{
 
 img {
   width: 100%;
-  max-width: 35vw;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto 0.7rem;
